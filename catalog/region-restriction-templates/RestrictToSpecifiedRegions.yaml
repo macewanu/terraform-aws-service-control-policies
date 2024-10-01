@@ -51,6 +51,7 @@
     # Allow 'read' operations (required for CloudHealth etc.)
     - "appstream:Describe*"
     - "autoscaling:Describe*"
+    - "cloudformation:DescribeStack*"
     - "cloudformation:ListStack*"
     - "cloudtrail:DescribeTrails"
     - "cloudtrail:GetEventSelectors"
