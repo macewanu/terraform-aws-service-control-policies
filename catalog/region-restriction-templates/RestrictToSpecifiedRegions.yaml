@@ -42,6 +42,7 @@
     - "sso:*"
     - "sts:*"
     - "support:*"
+    - "supportplans:*"
     - "trustedadvisor:*"
     - "waf-regional:*"
     - "waf:*"
