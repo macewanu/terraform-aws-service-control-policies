@@ -51,6 +51,7 @@
     # Allow 'read' operations (required for CloudHealth etc.)
     - "appstream:Describe*"
     - "autoscaling:Describe*"
+    - "cloudformation:ListStack*"
     - "cloudtrail:DescribeTrails"
     - "cloudtrail:GetEventSelectors"
     - "cloudtrail:ListTags"
@@ -76,6 +77,7 @@
     - "firehose:ListTagsForDeliveryStream"
     - "fsx:Describe*"
     - "kinesis:Describe*"
+    - "kinesis:List*"
     - "logs:Describe*"
     - "logs:List*"
     - "rds:Describe*"
