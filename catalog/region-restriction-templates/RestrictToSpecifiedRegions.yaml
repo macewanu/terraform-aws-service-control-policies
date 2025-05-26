@@ -57,6 +57,7 @@
     - "freetier:*"
     - "fsx:Describe*"
     - "globalaccelerator:*"
+    - "guardduty:*"
     - "health:*"
     - "iam:*"
     - "importexport:*"

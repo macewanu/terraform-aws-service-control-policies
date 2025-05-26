@@ -54,6 +54,7 @@
     - "fms:*"
     - "freetier:*"
     - "fsx:Describe*"
+    - "guardduty:*"
     - "globalaccelerator:*"
     - "health:*"
     - "iam:*"
