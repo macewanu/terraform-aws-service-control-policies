@@ -1,0 +1,17 @@
+# Requires parameter:
+# - allowed_instance_types  # Comma separated list of EC2 instances types to allow
+
+- sid: "RestrictEC2InstanceTypes"
+  effect: "Deny"
+  actions:
+    - "ec2:RunInstances"
+  resources:
+    - "arn:aws:ec2:*:*:instance/*"
+  condition:
+    - test: "StringNotLike"
+      variable: "ec2:InstanceType"
+      # List of allowed EC2 instance types
+      values:
+      %{ for r in split(",", allowed_instance_types) }
+        - ${trimspace(r)}
+      %{ endfor }
