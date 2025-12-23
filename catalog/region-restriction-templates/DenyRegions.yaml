@@ -44,6 +44,7 @@
     - "ec2:DisableEbsEncryptionByDefault"
     - "ec2:EnableEbsEncryptionByDefault"
     - "ec2:GetEbsEncryptionByDefault"
+    - "ec2:GetSnapshotBlockPublicAccessState"
     - "ecr:*"
     - "eks:Describe*"
     - "eks:List*"
